@@ -13,7 +13,7 @@
   - [Market Price vs. Energy Price](#market-price-vs-energy-price)
   - [Market Price vs. Energy Demand Correlation](#market-price-vs-energy-price)
 - [Infrastructure and Technology Analysis](#infrastructure-status-and-technnology-limitations-analysis)
-- [⚖Regulatory Changes and Compliance Costs](#regulatory-change-and-compliance-cost)
+- [Regulatory Changes and Compliance Costs](#regulatory-change-and-compliance-cost)
   - [Impact on Revenue](#impact-of-regulatory-changes-and-operational-cost-on-revenue)
 - [Competition from Renewables](#analyzing-competition-from-other-renewable-energy-providers)
 - [General Insights](#general-insights)
@@ -374,7 +374,7 @@ plt.show()
 
 ```
 Result:
-![Competition](Competition/competition.png)
+![Competition](competition1/competition1.png)
 
 ### The graph showcases energy production trends segmented by energy source (Fossil Fuels vs. Renewables) over time:
 1. Fossil Fuels: Represents the energy produced from conventional sources.
