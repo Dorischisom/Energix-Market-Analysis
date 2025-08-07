@@ -40,7 +40,7 @@ This project aims to analyze historical energy data to assess market vulnerabili
 
 - **Competition Analysis:** Understand the effects of renewable energy trends on market share.
 
-### 📂 Datasets Used
+### Datasets Used
 
 | Dataset                     | Description                                                                 |
 |----------------------------|-----------------------------------------------------------------------------|
