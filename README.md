@@ -44,10 +44,10 @@ This project aims to analyze historical energy data to assess market vulnerabili
 
 | Dataset                     | Description                                                                 |
 |----------------------------|-----------------------------------------------------------------------------|
-| `historical_energy_data.csv` | Time series data on energy demand, consumption, pricing, production, and costs |
-| `market_data.csv`            | Market pricing, demand trends, and competitor positioning                  |
-| `infrastructure_data.csv`    | Infrastructure status, maintenance activities, and technology limitations   |
-| `regulatory_data.csv`        | Regulatory changes, compliance status, and associated compliance costs      |
+| `Historical_energy_data.csv` | Time series data on energy demand, consumption, pricing, production, and costs |
+| `Market_data.csv`            | Market pricing, demand trends, and competitor positioning                  |
+| `Infrastructure_data.csv`    | Infrastructure status, maintenance activities, and technology limitations   |
+| `Regulatory_data.csv`        | Regulatory changes, compliance status, and associated compliance costs      |
 
 
 ### Tools Used
