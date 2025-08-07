@@ -191,7 +191,7 @@ correlation_market_price = merged_data["Market Demand"].corr(merged_data["Market
 Result:
 `-0.005361840768503358`
 
-The correlation analysis between Energy Demand and Energy Price yielded a coefficient of -0.005, indicating a negligible relationship. This lack of correlation suggests that the company's pricing strategy isn't dynamically linked to market demand, which could be a factor in the company's profitability challenges.
+The correlation analysis between Energy Demand and Energy Price yielded a coefficient of `-0.005`, indicating a negligible relationship. This lack of correlation suggests that the company's pricing strategy isn't dynamically linked to market demand, which could be a factor in the company's profitability challenges.
 
 So, if there is weak relationship between Energy Demand and Energy Price, what is really making Energix meet up with their Demand?
 That brought us to the next analyis. To check the Infrastructure status and Technnology Limitations 
@@ -374,7 +374,7 @@ plt.show()
 
 ```
 Result:
-![Competition](Competition/Competition.png)
+![Competition](Competition/competition.png)
 
 ### The graph showcases energy production trends segmented by energy source (Fossil Fuels vs. Renewables) over time:
 1. Fossil Fuels: Represents the energy produced from conventional sources.
