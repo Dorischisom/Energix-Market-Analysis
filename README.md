@@ -129,7 +129,7 @@ Interestingly, Energix has High Demands for their product, that is good right?
 But, They weren't meeting up with these demands, Why?
 
 That is what brought me to the next step of the analyisis "To analyze Market Price and Energy Price Over Time"
-I wanted to compare the Market price and Energix price.
+I compared the Market price and Energix price.
 
 ### Market Price vs. Energy Price
 I used this code to analyze Market Price and Energy Price Over Time
@@ -176,7 +176,7 @@ Result:
 The Energy Price with the general Market Price shows that Energix often sells its energy at a price lower than the market rate.
 Could this be the reason that they were Having High Demands?
 
-Let's check if there is a correlation
+Then I checked if there is a correlation
 
 ### Market Price vs. Energy Price
 
