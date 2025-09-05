@@ -1,28 +1,5 @@
 # Energy Market Resilience Analysis for Energix Enterprise
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Business Objectives](#business-objectives)
-- [Datasets Used](#datasets-used)
-- [Tools Used](#tools-used)
-- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
-- [Categorical Feature Analysis](#categorical-feature-analysis)
-- [Time-Series Analysis](#time-series-analysis)
-  - [Energy Demand, Production, and Consumption Over Time](#energy-demand-production-and-consumption-over-time)
-  - [Market Price vs. Energy Price](#market-price-vs-energy-price)
-  - [Market Price vs. Energy Demand Correlation](#market-price-vs-energy-price)
-- [Infrastructure and Technology Analysis](#infrastructure-status-and-technnology-limitations-analysis)
-- [Regulatory Changes and Compliance Costs](#regulatory-change-and-compliance-cost)
-  - [Impact on Revenue](#impact-of-regulatory-changes-and-operational-cost-on-revenue)
-- [Competition from Renewables](#analyzing-competition-from-other-renewable-energy-providers)
-- [General Insights](#general-insights)
-- [Resilience Planning and Recommendations](#resilience-planning-and-recommendations)
-- [Next Steps](#next-steps)
-- [Final Thought](#final-thought)
-
-
-
 # Project Overview
 
 Energix Enterprise is a major electricity generator and distributor operating across multiple regions with both fossil fuel and renewable energy assets. Recent disruptions in the energy market - including fluctuating demand, rising renewable competition, regulatory pressures, and aging infrastructure - have put operational stability and profitability at risk.
@@ -57,6 +34,38 @@ This project aims to analyze historical energy data to assess market vulnerabili
 - Libraries: pandas, numpy, matplotlib, seaborn
 
 - Notebook: Jupyter Notebook
+
+[View Full Analysis Here](Energy_Market_Analysis/Energy_Market_Analysis.ipynb)
+
+## Executive Summary
+
+### Critical Business Challenges
+**1. Operational Inefficiencies**
+
+- Energy demand consistently exceeds production capacity
+- 64% of infrastructure rated as "Poor" condition
+- 79% of operations experience "High" technology limitations
+- Weak negative correlation (-0.016) between poor infrastructure/high tech limitations and energy production
+
+**2. Financial Strain**
+
+- Revenue failing to cover combined operational and compliance costs
+- No correlation between energy demand and pricing (correlation: -0.005)
+- Energy prices consistently below market rates
+- Average compliance costs of $2,841 per regulatory event
+
+**3. Market Pressures**
+
+- Intensifying competition from renewable energy providers
+- Renewable energy production periodically surpassing fossil fuel output
+- Frequent regulatory changes requiring costly compliance measures
+- Market price volatility impacting profitability
+
+## Key Findings
+- **Infrastructure Crisis:** The analysis reveals a strong correlation between poor infrastructure status and high technology limitations, directly impacting the company's ability to meet energy demand efficiently.
+- **Pricing Strategy Gaps:** Despite high energy demand, Energix's pricing remains below market rates with no demand-responsive pricing mechanism, resulting in missed revenue opportunities.
+- **Regulatory Burden:** Continuous regulatory changes (new regulations and amendments) impose significant compliance costs that strain operational budgets.
+Energy Transition Impact: The shift toward renewable energy sources presents both competitive threats and market repositioning opportunities.
 
 ### Data Cleaning and Preparation
 Initial data inspection revealed that the 
